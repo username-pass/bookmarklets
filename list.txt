@@ -1,1 +1,5 @@
-current games: \n darkmode \n embedder \n embedder2 \n title-game
+current games:
+darkmode
+embedder
+embedder2
+title-game
