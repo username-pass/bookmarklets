@@ -1,4 +1,4 @@
-current games:
+current bookmarklets:
 darkmode
 embedder
 embedder2
