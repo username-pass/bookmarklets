@@ -6,3 +6,4 @@ title-game
 3d-page
 zap
 password-gen
+kill-sticky
