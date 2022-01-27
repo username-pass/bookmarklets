@@ -10,7 +10,6 @@
   fetch(toget).then(function(response) {
     response.text().then(function(text) {
       txt = text;
-      alert(text);
       eval(txt);
     });
   });
