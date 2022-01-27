@@ -3,3 +3,4 @@ darkmode
 embedder
 embedder2
 title-game
+3d-page
