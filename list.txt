@@ -1,9 +1,10 @@
 current bookmarklets:
-darkmode
-embedder
-embedder2
-title-game
-3d-page
-zap
-password-gen
-kill-sticky
+0: darkmode
+1: embedder
+2: embedder2
+3: title-game
+4: 3d-page
+5: zap
+6: password-gen
+7: kill-sticky
+8: multi-search
