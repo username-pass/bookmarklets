@@ -5,7 +5,7 @@ javascript: (function() {
     if (window.getSelection)
       return window.getSelection();
   }
-  var targetUrl = "https://www.google.com/search?q=";
+  var targetUrl = "https://www.duckduckgo.com?q=";
   new Promise(setQuery => {
     var input = window.prompt('Enter your query:', window.getSelection());
     if (input) setQuery(input);
