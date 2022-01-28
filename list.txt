@@ -12,3 +12,4 @@
  11: unblocker1
  12: clear-cookies
  13: dom-browser
+ 14: read-global-vars
