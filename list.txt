@@ -8,3 +8,4 @@ current bookmarklets:
 6: password-gen
 7: kill-sticky
 8: multi-search
+9: view-backlinks
