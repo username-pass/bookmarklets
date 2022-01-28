@@ -14,7 +14,6 @@ fetch("https://raw.githubusercontent.com/mrphi06/My-Bookmarklets-Collection/main
     var list = text;
     var toget = prompt("Which bookmarklet do you wish to use? \n current bookmarklets: \n " + list);
     var list = list.split(" ");
-    alert(toget-1);
     if ((toget - 1) != isNaN) {
     let tlist = getlist(list);
     toget = tlist[toget];
