@@ -11,3 +11,4 @@
  10: get-duped-content
  11: unblocker1
  12: clear-cookies
+ 13: dom-browser
