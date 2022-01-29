@@ -9,7 +9,7 @@ function getlist(initial) {
   }
   return out;
 }
-fetch("https://raw.githubusercontent.com/mrphi06/My-Bookmarklets-Collection/main/list.txt").then(function(response) {
+fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.txt").then(function(response) {
   response.text().then(function(text) {
     var list = text;
     var toget = prompt("Which bookmarklet do you wish to use? \n current bookmarklets: \n " + list);
