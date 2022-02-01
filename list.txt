@@ -15,3 +15,4 @@
  14: read-global-vars
  15: yt-comments
  16: edit-site
+ 17: open-page-links
