@@ -16,3 +16,4 @@
  15: yt-comments
  16: edit-site
  17: open-page-links
+ 18: inspect-element
