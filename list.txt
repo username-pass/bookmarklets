@@ -19,3 +19,4 @@
  18: inspect-element
  19: find-weird-pages
  20: indexed-pages
+ 21: prevent-tab-closing
