@@ -18,3 +18,4 @@
  17: open-page-links
  18: inspect-element
  19: find-weird-pages
+ 20: indexed-pages
