@@ -46,7 +46,7 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
     });
     }, 1000);
     
-    }, 500);
+    }, 100);
     
     }, 500);
     
