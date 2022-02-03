@@ -46,9 +46,9 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
     });
     }, 1000);
     
-    }, 100);
+    }, 500);
     
-    }, 100);
+    }, 500);
     
   });
 });
