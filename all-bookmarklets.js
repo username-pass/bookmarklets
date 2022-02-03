@@ -29,10 +29,8 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
       toget = listwindow.prompt("Which bookmarklet do you wish to use?");
       setTimeout(() => {
         listwindow.close();
-        alert(toget);
 
     setTimeout(() => {
-    alert(toget);
     list = list.split(" ");
     if ((toget - 1) != isNaN) {
       let tlist = getlist(list);
