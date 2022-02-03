@@ -19,7 +19,7 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
     toget = tlist[toget];
     }
     var txt = "";
-    var toget = "https://raw.githubusercontent.com/mrphi06/My-Bookmarklets-Collection/main/" + toget + ".js";
+    var toget = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/" + toget + ".js";
     fetch(toget).then(function(response) {
       response.text().then(function(text) {
         txt = text;
