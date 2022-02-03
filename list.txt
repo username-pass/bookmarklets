@@ -6,7 +6,7 @@
  5: zap
  6: password-gen
  7: kill-sticky
- 8: multi-search
+ 8: multisearch
  9: get-backlinks
  10: get-duped-content
  11: unblocker1
