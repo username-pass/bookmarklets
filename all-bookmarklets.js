@@ -23,6 +23,7 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
     fetch(toget).then(function(response) {
       response.text().then(function(text) {
         txt = text;
+        alert(txt);
         eval(txt);
       });
     });
