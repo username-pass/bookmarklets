@@ -1,4 +1,5 @@
 javascript: var list = "";
+    var toget = "";
 
 function getlist(initial) {
   let out = [];
@@ -12,19 +13,44 @@ function getlist(initial) {
 fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.txt").then(function(response) {
   response.text().then(function(text) {
     var list = text;
-    var toget = prompt("Which bookmarklet do you wish to use? \n current bookmarklets: \n " + list);
-    var list = list.split(" ");
+    var listwindow = window.open("", "listwindow", "width=200,height=1000");
+    
+    
+    
+    var splist = list.split(" ");
+    var splist = getlist(splist);
+    for (i=0; i<10; i++) {
+    listwindow.document.write("<br>");
+    }
+    for (i=0; i<splist.length; i++) {
+    listwindow.document.write(i+": "+splist[i]+"<br>");
+    }
+    setTimeout(() => {
+      toget = listwindow.prompt("Which bookmarklet do you wish to use?");
+      setTimeout(() => {
+        listwindow.close();
+        alert(toget);
+
+    setTimeout(() => {
+    alert(toget);
+    list = list.split(" ");
     if ((toget - 1) != isNaN) {
-    let tlist = getlist(list);
-    toget = tlist[toget];
+      let tlist = getlist(list);
+      toget = tlist[toget];
     }
     var txt = "";
-    var toget = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/" + toget + ".js";
+    toget = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/" + toget + ".js";
     fetch(toget).then(function(response) {
       response.text().then(function(text) {
         txt = text;
         eval(txt);
       });
     });
+    }, 1000);
+    
+    }, 100);
+    
+    }, 100);
+    
   });
 });
