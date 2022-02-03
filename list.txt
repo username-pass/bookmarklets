@@ -21,3 +21,4 @@
  20: indexed-pages
  21: prevent-tab-closing
  22: better-ctrl+f
+ 23: cached-sites
