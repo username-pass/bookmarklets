@@ -1,4 +1,4 @@
-alert("allows you to edit the site");
+//alert("allows you to edit the site");
 
 javascript: if(document.body.contentEditable !== 'true') {
     document.body.contentEditable = 'true'; document.designMode='on'; void 0
