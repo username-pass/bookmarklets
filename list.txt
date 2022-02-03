@@ -20,3 +20,4 @@
  19: find-weird-pages
  20: indexed-pages
  21: prevent-tab-closing
+ 22: better-ctrl+f
