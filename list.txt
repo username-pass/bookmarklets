@@ -22,3 +22,4 @@
  21: prevent-tab-closing
  22: better-ctrl+f
  23: cached-sites
+ 24: autoclicker
