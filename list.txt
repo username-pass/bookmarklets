@@ -25,3 +25,4 @@
  24: autoclicker
  25: random-links
  26: encode
+ 27: archive-search
