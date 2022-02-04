@@ -23,3 +23,4 @@
  22: better-ctrl+f
  23: cached-sites
  24: autoclicker
+ 25: random-links
