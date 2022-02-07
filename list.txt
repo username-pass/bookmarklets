@@ -26,3 +26,4 @@
  25: random-links
  26: encode
  27: archive-search
+ 28: open-window
