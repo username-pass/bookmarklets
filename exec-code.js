@@ -24,7 +24,7 @@ if (confirm("direct code?")) {
   };
 
   function a3q_Load() {
-    return localStorage.getItem('a3q_note') || '';
+    return localStorage.getItem('a3q_note1') || '';
   };
 
   function a3q_GetContents() {
