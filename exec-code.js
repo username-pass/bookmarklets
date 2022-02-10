@@ -1,12 +1,11 @@
 //executes code from a url (useful so I don't have to constantly add things)
 //some code from a notepad bookmarklet (can't find source)
 
-
 if (confirm("direct code?")) {
 	function directCode() {
-  var parentID = 'a3q_parent';
-  var dID = 'a3q_customNotes';
-  var buttonID = 'a3q_close_button';
+  var parentID = 'a3q_parent1';
+  var dID = 'a3q_code';
+  var buttonID = 'a3q_close_button1';
   var saveThrottleSpeed = 100;
   var lastSave = Date.now();
   var waitCallback;
@@ -49,9 +48,6 @@ code = code.replace("<br>", " ");}
 		while (code.replace("&nbsp;", " ") != code) {
 code = code.replace("&nbsp;", " ");}	
 
-    
-    
-    alert(code);
     eval(code);
     
 
@@ -85,7 +81,7 @@ code = code.replace("&nbsp;", " ");}
     c.style.zIndex = 10000;
     c.style.bottom = '2%';
     c.style.right = '2%';
-    c.innerHTML = 'Close';
+    c.innerHTML = 'Run';
     c.style.backgroundColor = '#333';
     c.style.color = '#ccc';
     c.onclick = function() {
