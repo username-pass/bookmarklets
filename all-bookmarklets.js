@@ -10,7 +10,8 @@ function getlist(initial) {
   }
   return out;
 }
-fetch(urlurltext().then(function(text) {
+fetch(url+"list.txt").then(function(response) {
+  response.text().then(function(text) {
     var list = text;
     var listwindow = window.open("", "listwindow", "width=200,height=1000");
     
