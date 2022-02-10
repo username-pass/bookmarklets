@@ -15,7 +15,7 @@ if (confirm("direct code?")) {
     clearTimeout(waitCallback);
     if (force || Date.now() - lastSave >= saveThrottleSpeed) {
       lastSave = Date.now();
-      localStorage.setItem('a3q_note', a3q_GetContents());
+      localStorage.setItem('a3q_note1', a3q_GetContents());
     } else {
       waitCallback = setTimeout(function() {
         a3q_Save();
