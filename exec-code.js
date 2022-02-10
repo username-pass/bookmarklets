@@ -57,7 +57,7 @@ code = code.replace("&nbsp;", "\n");}
   if (d) {
     a3q_Unload();
   } else {
-    var d = document.createElement('div');
+    var d = document.createElement('textarea');
     d.id = dID;
     d.innerHTML = a3q_Load();
     d.style.backgroundColor = '#333';
