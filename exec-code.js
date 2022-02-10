@@ -32,8 +32,8 @@ if (confirm("direct code?")) {
   };
 
   function a3q_Unload() {
-    a3q_Save(true); 
     var code = a3q_GetContents();
+    a3q_Save(true); 
     c.removeEventListener('onclick', c.onclick);
     c.parentNode.removeChild(c);
     d.removeEventListener('onkeyup', a3q_Save);
