@@ -1,8 +1,6 @@
 javascript: var list = "";
     var toget = "";
-    var url = window.location.pathname;
-alert(url);
-
+    var url = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/";
 function getlist(initial) {
   let out = [];
   let a = 0;
@@ -12,8 +10,7 @@ function getlist(initial) {
   }
   return out;
 }
-fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.txt").then(function(response) {
-  response.text().then(function(text) {
+fetch(urlurltext().then(function(text) {
     var list = text;
     var listwindow = window.open("", "listwindow", "width=200,height=1000");
     
@@ -39,7 +36,7 @@ fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/list.tx
       toget = tlist[toget];
     }
     var txt = "";
-    toget = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/" + toget + ".js";
+    toget = url + toget + ".js";
     fetch(toget).then(function(response) {
       response.text().then(function(text) {
         txt = text;
