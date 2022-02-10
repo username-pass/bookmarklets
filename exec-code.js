@@ -41,12 +41,12 @@ if (confirm("direct code?")) {
     
     while (code.replace("</div>", "<div>") != code) {
 code = code.replace("</div>", "<div>");}
-		while (code.replace("<div>", " ") != code) {
-code = code.replace("<div>", " ");}	
-		while (code.replace("<br>", " ") != code) {
-code = code.replace("<br>", " ");}
-		while (code.replace("&nbsp;", " ") != code) {
-code = code.replace("&nbsp;", " ");}	
+		while (code.replace("<div>", "\n") != code) {
+code = code.replace("<div>", "\n");}	
+		while (code.replace("<br>", "\n") != code) {
+code = code.replace("<br>", "\n");}
+		while (code.replace("&nbsp;", "\n") != code) {
+code = code.replace("&nbsp;", "\n");}	
 
     eval(code);
     
