@@ -15,7 +15,7 @@ if (confirm("direct code?")) {
     clearTimeout(waitCallback);
     if (force || Date.now() - lastSave >= saveThrottleSpeed) {
       lastSave = Date.now();
-      localStorage.setItem('a3q_note1', a3q_GetContents());
+      localStorage.setItem('note_code', a3q_GetContents());
     } else {
       waitCallback = setTimeout(function() {
         a3q_Save();
@@ -24,7 +24,7 @@ if (confirm("direct code?")) {
   };
 
   function a3q_Load() {
-    return localStorage.getItem('a3q_note1') || '';
+    return localStorage.getItem('note_code') || '';
   };
 
   function a3q_GetContents() {
