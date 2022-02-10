@@ -1,5 +1,7 @@
 javascript: var list = "";
     var toget = "";
+    var url = window.location.pathname;
+alert(url);
 
 function getlist(initial) {
   let out = [];
