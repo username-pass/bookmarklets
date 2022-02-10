@@ -3,13 +3,19 @@ To get all of them in one handy package,
 copy from here, then put it as the URL to a bookmark:
 
 [🄱🄼🄻](<javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});>)
+```
+javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
+```
 ## Individual ones (not all by me):  
 
 ### Search Archive.org:  
+[Archive-Search](<javascript: void(location.href = 'http://web.archive.org/web/*/' + prompt("Put URL (or search term) here, then press enter",window.getSelection()));>)
 ```
 javascript: void(location.href = 'http://web.archive.org/web/*/' + prompt("Put URL (or search term) here, then press enter",window.getSelection()));
 ```
+
 ### Auto-clicker:  
+[Auto-Clicker](<javascript:var DELAY = 1;var autoClickerStyleElement = document.createElement("style");autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";document.body.appendChild(autoClickerStyleElement);function addClicker(e) {if(!e.isTrusted) {return;}if(e.target.classList.contains("auto-clicker-target")) {e.target.classList.remove("auto-clicker-target");} else {e.target.classList.add("auto-clicker-target");}document.body.removeChild(autoClickerStyleElement);document.body.removeEventListener("click", addClicker);e.preventDefault();autoClick(e.target);}function autoClick(element) {if(element.classList.contains("auto-clicker-target")) {element.click();setTimeout(function(){ autoClick(element); }, DELAY);}}document.body.addEventListener("click", addClicker, 0);>)
 ```
 javascript:var DELAY = 1;var autoClickerStyleElement = document.createElement("style");autoClickerStyleElement.innerHTML="*{cursor: crosshair !important;}";document.body.appendChild(autoClickerStyleElement);function addClicker(e) {if(!e.isTrusted) {return;}if(e.target.classList.contains("auto-clicker-target")) {e.target.classList.remove("auto-clicker-target");} else {e.target.classList.add("auto-clicker-target");}document.body.removeChild(autoClickerStyleElement);document.body.removeEventListener("click", addClicker);e.preventDefault();autoClick(e.target);}function autoClick(element) {if(element.classList.contains("auto-clicker-target")) {element.click();setTimeout(function(){ autoClick(element); }, DELAY);}}document.body.addEventListener("click", addClicker, 0);
 ```
