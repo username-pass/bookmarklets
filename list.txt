@@ -28,3 +28,4 @@
  27: archive-search
  28: open-window
  29: exec-code
+ 30: yt-add-skipper
