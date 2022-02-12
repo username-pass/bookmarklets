@@ -29,3 +29,4 @@
  28: open-window
  29: exec-code
  30: yt-add-skipper
+ 31: local-storage-viewer
