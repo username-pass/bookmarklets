@@ -8,7 +8,7 @@ javascript: (function() {
     var input = window.prompt('Enter your query:');
     if (input) setQuery(input);
   }).then(query => {
-    alert(locations);
+   // alert(locations);
     for (let i = 0; i<locations.length-1; i++) {
 
       window.open(locations[i] + query);
