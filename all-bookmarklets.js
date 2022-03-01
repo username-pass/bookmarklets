@@ -1,4 +1,6 @@
-javascript: var list = "";
+javascript:
+function windwow () {
+		var list = "";
     var toget = "";
     var url = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/";
 function getlist(initial) {
@@ -19,36 +21,86 @@ fetch(url+"list.txt").then(function(response) {
     
     var splist = list.split(" ");
     var splist = getlist(splist);
-    for (i=0; i<10; i++) {
+    for (i=0; i<3; i++) {
     listwindow.document.write("<br>");
     }
-    for (i=0; i<splist.length; i++) {
+   
+    setTimeout(() => {
+      function makelist() {
+      for (i=0; i<splist.length; i++) {
     listwindow.document.write(i+": "+splist[i]+"<br>");
     }
-    setTimeout(() => {
-      toget = listwindow.prompt("Which bookmarklet do you wish to use?");
-      setTimeout(() => {
-        listwindow.close();
-
-    setTimeout(() => {
+      }
+     function makebuttons (){
+        
+        var c = document.createElement('button');
+        c.style.position = 'fixed';
+        c.id = "button";
+        c.style.zIndex = 10000;
+        c.style.top = '10px';
+        c.style.right = '7px';
+        c.innerHTML = 'Close';
+        c.style.backgroundColor = '#333';
+        c.style.color = '#ccc';
+        c.onclick = function() {
+          close();
+        };
+        listwindow.document.body.appendChild(c);
+        var t = document.createElement('textarea');
+        t.style.position = 'fixed';
+        t.id = "textarea";
+        t.style.zIndex = 9999;
+       	t.style.top = '10px';
+        t.autofocus = 'true';
+        t.onblur = function() {
+        	close();
+        };
+        
+        t.addEventListener('keydown', enterclose);
+        function enterclose(e) {
+          var key = ` ${e.code}`;
+          if (key == " Enter") {
+          close();
+          }
+				}
+        listwindow.document.body.appendChild(t);
+        
+     } 
+     makelist();
+     makebuttons();
+      
+      
+      function close() {setTimeout(() => {
+ 				toget = listwindow.textarea.value;
+				toget = toget.slice(0, -1);
+			listwindow.close();
+       
+       function dobml() {
+    
     list = list.split(" ");
     if ((toget - 1) != isNaN) {
       let tlist = getlist(list);
       toget = tlist[toget];
     }
-    var txt = "";
     toget = url + toget + ".js";
     fetch(toget).then(function(response) {
       response.text().then(function(text) {
-        txt = text;
+        var txt = text;
         eval(txt);
+        
       });
+      
     });
-    }, 1000);
+    }
+ 
+    setTimeout(() => {dobml();}, 1000);
     
-    }, 100);
+    }, 100);}
+      
     
     }, 500);
     
   });
 });
+}
+windwow();
