@@ -1,35 +1,35 @@
- 0: darkmode
- 1: embedder
- 2: embedder2
- 3: title-game
- 4: 3d-page
- 5: zap
- 6: password-gen
- 7: kill-sticky
- 8: multisearch
- 9: get-backlinks
- 10: get-duped-content
- 11: unblocker1
- 12: clear-cookies
- 13: dom-browser
- 14: read-global-vars
- 15: yt-comments
- 16: edit-site
- 17: open-page-links
- 18: inspect-element
- 19: find-weird-pages
- 20: indexed-pages
- 21: prevent-tab-closing
- 22: better-ctrl+f
- 23: cached-sites
- 24: autoclicker
- 25: random-links
- 26: encode
- 27: archive-search
- 28: open-window
- 29: exec-code
- 30: yt-add-skipper
- 31: local-storage-viewer
- 32: last-updated
- 33: notepad
- 34: unblocker2
+ darkmode
+ embedder
+ embedder2
+ title-game
+ 3d-page
+ zap
+ password-gen
+ kill-sticky
+ multisearch
+ get-backlinks
+ get-duped-content
+ unblocker1
+ clear-cookies
+ dom-browser
+ read-global-vars
+ yt-comments
+ edit-site
+ open-page-links
+ inspect-element
+ find-weird-pages
+ indexed-pages
+ prevent-tab-closing
+ better-ctrl+f
+ cached-sites
+ autoclicker
+ random-links
+ encode
+ archive-search
+ open-window
+ exec-code
+ yt-add-skipper
+ local-storage-viewer
+ last-updated
+ notepad
+ unblocker2
