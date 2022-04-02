@@ -14,14 +14,23 @@ function getlist(initial) {
 }
 fetch(url+"list.txt").then(function(response) {
   response.text().then(function(text) {
-    var list = text;
+    var list = text
     var listwindow = window.open("", "listwindow", "width=200,height=1000");
     
     
     
     var splist = list.split(" ");
-    var splist = getlist(splist);
-    for (i=0; i<3; i++) {
+    splist.shift();
+    splist = splist.sort();	
+    //The important stuff: 
+    /*TODO:
+    1. sort splist
+    2. keep a version of splist just as a reference table
+    3. use the sorted splist in the end-user list
+    4. remove the need for the numbers in lists.txt
+    
+    */
+		for (i=0; i<3; i++) {
     listwindow.document.write("<br>");
     }
    
@@ -77,10 +86,8 @@ fetch(url+"list.txt").then(function(response) {
        
        function dobml() {
     
-    list = list.split(" ");
     if ((toget - 1) != isNaN) {
-      let tlist = getlist(list);
-      toget = tlist[toget];
+      toget = splist[toget];
     }
     toget = url + toget + ".js";
     fetch(toget).then(function(response) {
