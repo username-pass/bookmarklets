@@ -7,7 +7,7 @@ If you have any new bookmarklets you wish to add, then please open a pull reques
 
 paste the below code into the url of a bookmark, then click it!
 
-[working on link...](<javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});>)
+[working on link...](<javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});>)
 ```
-javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
+javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
