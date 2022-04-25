@@ -29,4 +29,4 @@
  local-storage-viewer
  last-updated
  notepad
- unblocker3
+ unblocker2
