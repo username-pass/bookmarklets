@@ -31,3 +31,4 @@
  notepad
  unblocker2
  games1
+ games2
