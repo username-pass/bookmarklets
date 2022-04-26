@@ -33,7 +33,7 @@ fetch(url+"list.txt").then(function(response) {
 		for (i=0; i<3; i++) {
     listwindow.document.write("<br>");
     }
-   
+   listwindow.document.write("<b>Dev Branch</b> <br><br>")
     setTimeout(() => {
       function makelist() {
       for (i=0; i<splist.length; i++) {
