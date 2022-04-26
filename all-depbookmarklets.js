@@ -68,7 +68,7 @@ fetch(url+"deplist.txt").then(function(response) {
         t.addEventListener('keydown', enterclose);
         function enterclose(e) {
           var key = ` ${e.code}`;
-          if (key == " Enter") {
+          if (key == " Enter" || key == " Escape") {
           close();
           }
 				}
