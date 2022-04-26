@@ -54,6 +54,7 @@ fetch(url+"list.txt").then(function(response) {
         c.onclick = function() {
           close();
         };
+        c.style.borderRadius = "5px";
         listwindow.document.body.appendChild(c);
         var t = document.createElement('textarea');
         t.style.position = 'fixed';
@@ -64,6 +65,7 @@ fetch(url+"list.txt").then(function(response) {
         t.onblur = function() {
         	close();
         };
+        t.style.borderRadius = "10px";
         
         t.addEventListener('keydown', enterclose);
         function enterclose(e) {
