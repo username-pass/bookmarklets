@@ -22,17 +22,12 @@ fetch(url+"deplist.txt").then(function(response) {
     var splist = list.split(" ");
     splist.shift();
     splist = splist.sort();	
-    //The important stuff: 
-    /*TODO:
-    1. sort splist
-    2. keep a version of splist just as a reference table
-    3. use the sorted splist in the end-user list
-    4. remove the need for the numbers in lists.txt
     
-    */
 		for (i=0; i<3; i++) {
     listwindow.document.write("<br>");
     }
+   
+   listwindow.document.write("<b>Common Release Branch</b> <br> <br>")
    
     setTimeout(() => {
       function makelist() {
