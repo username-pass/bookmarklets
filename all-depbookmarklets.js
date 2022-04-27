@@ -36,6 +36,7 @@ fetch(url+"list.txt").then(function(response) {
     listwindow.document.write(i+": "+splist[i]+"<br>");
     }
       }
+	//ui
      function makebuttons (){
         
         var c = document.createElement('button');
