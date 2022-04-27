@@ -1,4 +1,6 @@
-javascript:
+javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});
+
+/*javascript:
 function windwow () {
 		var list = "";
     var toget = "";
@@ -108,3 +110,4 @@ fetch(url+"deplist.txt").then(function(response) {
 });
 }
 windwow();
+*/
