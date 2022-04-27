@@ -1,6 +1,5 @@
-fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});
  
-/*javascript:
+javascript:
 function windwow () {
 		var list = "";
     var toget = "";
@@ -14,7 +13,7 @@ function getlist(initial) {
   }
   return out;
 }
-fetch(url+"deplist.txt").then(function(response) {
+fetch(url+"list.txt").then(function(response) {
   response.text().then(function(text) {
     var list = text
     var listwindow = window.open("", "listwindow", "width=200,height=1000");
@@ -110,4 +109,4 @@ fetch(url+"deplist.txt").then(function(response) {
 });
 }
 windwow();
-*/
+
