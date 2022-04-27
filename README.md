@@ -11,6 +11,15 @@ paste the below code into the url of a bookmark, then click it!
 ```
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
+
+# Current Development stuff:
+
+- New UI: 45%
+
+- More unblockers: 60%
+
+- Potential rebranding: near future
+
 # Help Wanted:
 
 Go to the discussion section to apply.
