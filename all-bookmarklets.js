@@ -66,7 +66,7 @@ function windwow() {
 
 
               var b = document.createElement('div');
-              b.style.position = 'fixed';
+              b.style.position = 'absolute';
               b.editable = 'false';
               b.style.zIndex = 9999;
               b.style.top = '10px';
