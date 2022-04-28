@@ -9,7 +9,7 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 
 ### We now have a discord server!
 
-https://discord.gg/6aezxCRkfb to join
+[Click Me!](<https://rroll.to/SqDAE1>) to join
 
 ### _Want to help develop?
 
