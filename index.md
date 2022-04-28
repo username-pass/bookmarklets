@@ -13,6 +13,6 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 
 [Click Me!](<https://rroll.to/FQGE5g>) to join (with unblocker)
 
-### _Want to help develop?
+### Want to help develop?
 
 [click me](<https://github.com/username-pass/bookmarklets/discussions/4>)
