@@ -20,6 +20,10 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 
 - Potential rebranding: near future
 
+# New discord server!
+
+https://discord.gg/6aezxCRkfb to join
+
 # Help Wanted:
 
 Go to the discussion section to apply.
