@@ -1,4 +1,4 @@
-javascript:
+//javascript:
 function windwow () {
 		var list = "";
     var toget = "";
@@ -12,7 +12,12 @@ function getlist(initial) {
   }
   return out;
 }
-fetch(url+"list.txt").then(function(response) {
+
+fetch(url+"announcements.txt").then(function(resp){
+		resp.text().then(function(announcement){
+    
+    	
+      fetch(url+"list.txt").then(function(response) {
   response.text().then(function(text) {
     var list = text
     var listwindow = window.open("", "listwindow", "width=200,height=1000");
@@ -23,30 +28,34 @@ fetch(url+"list.txt").then(function(response) {
     splist.shift();
     splist = splist.sort();	
     //The important stuff: 
-    /*TODO:
-    1. sort splist
-    2. keep a version of splist just as a reference table
-    3. use the sorted splist in the end-user list
-    4. remove the need for the numbers in lists.txt
     
-    */
 		for (i=0; i<3; i++) {
     listwindow.document.write("<br>");
     }
-   listwindow.document.write("<b>Dev Branch</b> <br><br>")
+   listwindow.document.write("<b>Common Branch</b> <br><br>")
     setTimeout(() => {
       function makelist() {
       for (i=0; i<splist.length; i++) {
-    listwindow.document.write(i+": "+splist[i]+"<br>");
+      //experimental stuff
+      
+      var vtxt = i+": "+splist[i]+"<br>";
+      //listwindow.document.write("<a href="#" onclick="executeSomething(); return false">"+vtxt+"</a>");
+    listwindow.document.write("<a href='javascript: alert(i);'>" + vtxt + "</a>");
+ 
+    //listwindow.document.write(vtxt);
+        
     }
       }
+      
+      
+     
      function makebuttons (){
         
         var c = document.createElement('button');
         c.style.position = 'fixed';
         c.id = "button";
         c.style.zIndex = 10000;
-        c.style.top = '10px';
+        c.style.top = '50px';
         c.style.right = '7px';
         c.innerHTML = 'Close';
         c.style.backgroundColor = '#333';
@@ -54,28 +63,40 @@ fetch(url+"list.txt").then(function(response) {
         c.onclick = function() {
           close();
         };
+        
+
+        var b = document.createElement('div');
+        b.style.position = 'fixed';
+        b.editable = 'false';
+        b.style.zIndex = 9999;
+       	b.style.top = '10px';
+        b.autofocus = 'true';
+        b.innerHTML = "<b>"+announcement+"</b>";
+        b.style.borderRadius = "10px";
+        listwindow.document.body.appendChild(b);
+        
         c.style.borderRadius = "5px";
         listwindow.document.body.appendChild(c);
         var t = document.createElement('textarea');
         t.style.position = 'fixed';
         t.id = "textarea";
         t.style.zIndex = 9999;
-       	t.style.top = '10px';
+       	t.style.top = '50px';
         t.autofocus = 'true';
-        t.onblur = function() {
+        listwindow.onblur = function() {
         	close();
         };
         t.style.borderRadius = "10px";
         
-        t.addEventListener('keydown', enterclose);
+        listwindow.addEventListener('keydown', enterclose);
+        listwindow.document.body.appendChild(t);
         function enterclose(e) {
           var key = ` ${e.code}`;
           if (key == " Enter" || key == " Escape") {
           close();
           }
 				}
-        listwindow.document.body.appendChild(t);
-        
+
      } 
      makelist();
      makebuttons();
@@ -111,5 +132,11 @@ fetch(url+"list.txt").then(function(response) {
     
   });
 });
+      
+    })
+
+})
+
+
 }
 windwow();
