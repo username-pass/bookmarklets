@@ -3,8 +3,7 @@
 javascript: 
 var inf = prompt("info?");
 inf = inf.replaceAll(' ', '-');
-var tinf = inf-0;alert(inf.charAt(9));
-
+var tinf = inf-0;
 var isnan = tinf != inf;
 if (!isnan && inf.charAt(9)!=''){
 let inft = '';
