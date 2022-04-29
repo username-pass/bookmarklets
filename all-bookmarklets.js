@@ -28,23 +28,25 @@ function windwow() {
           splist.shift();
           splist = splist.sort();
           //The important stuff: 
-
-          for (i = 0; i < 3; i++) {
+          var ltxt = '';
+          for (i = 0; i < 2; i++) {
             listwindow.document.write("<br>");
           }
-          listwindow.document.write("<b>Dev Branch</b> <br><br>")
+          listwindow.document.write("<b>" + announcement + "</b><br><br>");
+          let urllist = url.split("/");
+          listwindow.document.write("<b>" + urllist[5] + " Branch</b> <br>")
           setTimeout(() => {
             function makelist() {
               for (i = 0; i < splist.length; i++) {
                 //experimental stuff
 
                 var vtxt = i + ": " + splist[i] + "<br>";
-                //listwindow.document.write("<a href="#" onclick="executeSomething(); return false">"+vtxt+"</a>");
-                listwindow.document.write("<a href='javascript: alert(i);'>" + vtxt + "</a>");
+                //listwindow.document.write("<a href='javascript: alert(i);'>" + vtxt + "</a>");
+                ltxt = ltxt + vtxt;
 
-                //listwindow.document.write(vtxt);
 
               }
+              listwindow.document.write(ltxt);
             }
 
 
@@ -55,7 +57,7 @@ function windwow() {
               c.style.position = 'fixed';
               c.id = "button";
               c.style.zIndex = 10000;
-              c.style.top = '50px';
+              c.style.top = '10px';
               c.style.right = '7px';
               c.innerHTML = 'Close';
               c.style.backgroundColor = '#333';
@@ -64,16 +66,25 @@ function windwow() {
                 close();
               };
 
+              var listtxt = document.createElement('div');
+              listtxt.style.position = 'absolute';
+              listtxt.style.zIndex = 9998;
+              listtxt.style.top = '90px';
+              listtxt.innerHTML = "<b>a</b>";
+              listtxt.style.borderRadius = "10px";
+              //listtxt.document.body.appendChild(listtxt);
+
 
               var b = document.createElement('div');
               b.style.position = 'absolute';
-              b.editable = 'false';
               b.style.zIndex = 9999;
-              b.style.top = '10px';
-              b.autofocus = 'true';
+              b.style.top = '50px';
               b.innerHTML = "<b>" + announcement + "</b>";
               b.style.borderRadius = "10px";
-              listwindow.document.body.appendChild(b);
+              //listwindow.document.body.appendChild(b);
+
+
+
 
               c.style.borderRadius = "5px";
               listwindow.document.body.appendChild(c);
@@ -81,7 +92,7 @@ function windwow() {
               t.style.position = 'fixed';
               t.id = "textarea";
               t.style.zIndex = 9999;
-              t.style.top = '50px';
+              t.style.top = '10px';
               t.autofocus = 'true';
               listwindow.onblur = function() {
                 close();
