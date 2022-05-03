@@ -1,4 +1,4 @@
-//autoclicker, very fast
+//autoclicker, very fast 
 
       javascript: var DELAY = 1;
       var autoClickerStyleElement = document.createElement("style");
