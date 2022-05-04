@@ -40,3 +40,5 @@
  games2
  unblocker6
  lookup
+ unblocker7
+ unblocker8
