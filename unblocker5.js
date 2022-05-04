@@ -13,7 +13,7 @@ function    decode(str){
 
 
 if (confirm("science help unblocker?")) {
-var loc = prompt("URL? (no HTTPS://)",window.getSelection());loc = encode(loc); /*window.location = */alert("https://sciencehelp.herokuapp.com/c/"+loc);
+var loc = prompt("URL? (HTTPS://)",window.getSelection());loc = encode(loc); /*window.location = */alert("https://sciencehelp.herokuapp.com/c/"+loc);
 }
 
 
