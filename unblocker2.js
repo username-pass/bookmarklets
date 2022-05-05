@@ -13,7 +13,7 @@ function    decode(str){
 
 
 if (confirm("innerturtle unblocker?")) {
-var loc = prompt("URL? (HTTPS://)",window.getSelection());loc = encode(loc); /*window.location = */alert("https://uvproxy.innerturtle123.repl.co/service/"+loc);
+var loc = prompt("URL? (HTTPS://)",window.getSelection());loc = encode(loc); window.location = "https://uvproxy.innerturtle123.repl.co/service/"+loc;
 }
 
 
