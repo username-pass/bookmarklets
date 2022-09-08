@@ -35,3 +35,6 @@
  unblocker3
  unblocker4
  unblocker5
+ piano
+ Classroom-Disguise
+ DOMII
