@@ -8,6 +8,7 @@
  better-ctrl+f
  autoclicker
  exec-code
+ word-type-prank
  yt-add-skipper
  notepad
  piano
