@@ -1,6 +1,5 @@
  darkmode
  3d-page
- unblocker1
  clear-cookies
  yt-comments
  edit-site
@@ -11,10 +10,6 @@
  exec-code
  yt-add-skipper
  notepad
- unblocker2
- unblocker3
- unblocker4
- unblocker5
  piano
  classroom-disguise
  DOMII
