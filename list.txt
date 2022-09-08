@@ -2,6 +2,7 @@
  3d-page
  unblocker1
  clear-cookies
+ snow-in-chrome
  yt-comments
  edit-site
  inspect-element
@@ -18,4 +19,4 @@
  piano
  classroom-disguise
  DOMII
- snow-in-chrome
+
