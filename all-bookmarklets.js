@@ -129,7 +129,7 @@ function windwow() {
                   fetch(toget).then(function(response) {
                     response.text().then(function(text) {
                       var txt = text;
-                      eval(txt);
+                      function(txt);
 
                     });
 
