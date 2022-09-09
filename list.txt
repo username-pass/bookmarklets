@@ -16,3 +16,4 @@
  DOMII
  snow-in-chrome
  inject-script
+ timer
