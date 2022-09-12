@@ -19,3 +19,4 @@
  timer
  cached-sites.js
  archive-search.js
+ unblocker1.js
