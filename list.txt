@@ -17,3 +17,4 @@
  snow-in-chrome
  inject-script
  timer
+ cached-sites.js
