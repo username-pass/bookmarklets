@@ -18,3 +18,4 @@
  inject-script
  timer
  cached-sites.js
+ archive-search.js
