@@ -11,3 +11,13 @@ paste the below code into the url of a bookmark, then click it!
 ```
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
+
+## School blocked bookmarklets?
+
+Same as above, but control click it!
+
+(and then close the window when done)
+
+```
+data:text/html, <script>fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-bookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});</script>
+```
