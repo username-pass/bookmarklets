@@ -20,3 +20,4 @@
  cached-sites.js
  archive-search.js
  unblocker1.js
+ unblocker1_tsunami.js
