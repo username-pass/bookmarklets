@@ -32,13 +32,7 @@
  local-storage-viewer
  last-updated
  notepad
- unblocker2
- unblocker3
- unblocker4
- unblocker5
  games1
  games2
- unblocker6
  lookup
- unblocker7
- unblocker8
+ unblocker1_tsunami.js
