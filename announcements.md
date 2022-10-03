@@ -9,6 +9,7 @@ this is where announcements and upcoming features are displayed
 This means new stuff will be coming soon. get ready!!
 
 ----------------------  
+### please note that things change, and all things are not set in stone.
 
 ### currently working on:
 
