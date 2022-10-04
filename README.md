@@ -33,6 +33,8 @@ This means new stuff will be coming soon. get ready!!
 
 * a exstention made by pazza08223
 
+### we ask you nicely to relize that not all things are finalized, and plans can change. so please give no hate if things get removed from this list. thank you.
+
 ------------------
 
 # list of all bookmarklets
