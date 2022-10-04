@@ -13,7 +13,7 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 ```
 
 ## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
-###unblockers that use exstentions or chrome apps will not be acsepted or added to the exstention (comming march)
+### unblockers that use exstentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
 # announcements
 
