@@ -31,9 +31,9 @@ This means new stuff will be coming soon. get ready!!
 
 * a new website for bookmarklets!!
 
-* a exstention made by pazza08223
+* a extension made by pazza08223
 
-### we ask you nicely to relize that not all things are finalized, and plans can change. so please give no hate if things get removed from this list. thank you.
+### We ask you nicely to realize that not all things are finalized, and plans can change. so please give no hate if things get removed from this list. thank you.
 
 ------------------
 
@@ -44,14 +44,14 @@ This means new stuff will be coming soon. get ready!!
 * all bookmarks.js
 
 
-this is a hub for all of the bookmarklets in the repository. it is the thing executed when you run the main bookmarklet.
+This is a hub for all of the bookmarklets in the repository. it is the thing executed when you run the main bookmarklet.
 * 3d page
 
 
-this will make the page you are currently on have a cool 3d effect. pazza082234 is thinking about a extension and this will be a checkbox on the extension.
+this will make the page you are currently on have a cool 3d effect. pazza082234 is thinking about an extension and this will be a checkbox on the extension.
 * DOMII
 
-A cool game you can play in your browser on top of the website. press space and a spaceship will destroy whatever is Infront of it. press W to move forward, A, and D to turn, and S dose nothing :(
+A cool game you can play in your browser on top of the website. press space and a spaceship will destroy whatever is Infront of it. press W to move forward, A, and D to turn, and S does nothing :(
 * archive search
 
 lets you search the internet archive with ease with a simple bookmarklet.
@@ -60,7 +60,7 @@ lets you search the internet archive with ease with a simple bookmarklet.
 clicks automatically for lazy people or people that want a lot of cookies on cookie clicker.
 * better ctrl f
 
-this bookmark takes normal gorse ctrl f (a built in search tool on chrome plus its derivatives and Firefox) and lets you search for more then one thing without losing the spot of the last thing.
+this bookmark takes normal gorse ctrl f (a built-in search tool on chrome plus its derivatives and Firefox) and lets you search for more then one thing without losing the spot of the last thing.
 * cached sites
 
 google has this thing with stealing data if you don't know. and google makes copies of all websites and calls it cashed sites. they do this to improve load times. but unfortunately (for you school) this includes most of the website, thus unblocking it.
@@ -81,20 +81,20 @@ this will let you modify the website you are on to what ever you want. this will
 in other words, execute code from a note pad thing that will appear in the corner of your screen.
 * inject script
 
-this will inject a script. and it will show the box that re appears, with the original text still there. this is useful if you want to run code, modify code, run it another time without pressing ctrl c and v a infinite amount of times.
+this will inject a script. and it will show the box that reappears, with the original text still there. This is useful if you want to run code, modify code, run it another time without pressing ctrl c and v a infinite amount of times.
 * inspect elament (broken)
 
-it lets you inspect a element. useful if your school district has blocked inspect element.
+it lets you inspect a element. useful if your school district has blocked inspect elements.
 * notepad
 
 small little notepad that can rest in the bottom right of your screen. good if you need to make notes quickly, and are on a Chromebook without a text editor.
 * password generator
 
-this will generate you a password with the questions it asks you. the password is completely random.
+this will generate you a password with the questions it asks you. The password is completely random.
 * piano
 
 will summon a little piano, it is cool and awesome for annoying friends with your "good" piano skills.
-* pervent tab from closing
+* prevent tab from closing
 
 this will give you a warning before you close a tab. so when you are mass closing your tabs for the day you don't lose any progress.
 * snow in chrome
@@ -103,7 +103,7 @@ make it snow with a cook effect on your tabs to impress your friends.
 * unblocker1
 
 works most of the time for unblocking lite websites. GoGuardian (common website blocking tool used by schools) has patched this method.
-* unblocker1 tsunami
+* unlocker1 tsunami
 
 unblock stuff with repl. GoGuardian has blocked repl
 * word type prank
@@ -115,3 +115,5 @@ lets you skip a ad when YouTube gives you 2 30 second ads.
 * yt comments
 
 if your school blocked seeing the comment section on a video, this will let you see it.
+
+ 
