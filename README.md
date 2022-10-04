@@ -12,6 +12,8 @@ paste the below code into the url of a bookmark, then click it!
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
 
+## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued
+
 -----------
 # list of all bookmarklets
 
