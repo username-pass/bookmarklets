@@ -1,7 +1,7 @@
 # Bookmarklets-Collection
-Just all my bookmarklets in one place
+Just all of the bookmarklets that are thoght to be usefull all in one place
 
-If you have any new bookmarklets you wish to add, then please open a pull request with the bookmarklet so I can add it. (Not everything will be accepted)
+If you have any new bookmarklets you wish to add, then please open a pull request with the bookmarklet so I can add it. (Not everything will be accepted. e.g. not finished or buggy/unusable bookmarks)
 
 # How to get it
 
@@ -12,12 +12,32 @@ paste the below code into the url of a bookmark, then click it!
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
 
-## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued
-
+## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
+###unblockers that use exstentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
+# announcements
+
+this is where announcements and upcoming features are displayed
+
+### This project is active again!
+
+This means new stuff will be coming soon. get ready!!
+
+### currently working on:
+
+* on a major overhaul of the code that will make it able to run everywhere
+
+* better user interface for the "all bookmarks" script
+
+* a new website for bookmarklets!!
+
+* a exstention made by pazza08223
+
+------------------
+
 # list of all bookmarklets
 
-### a list of all the current bookmarklets and what they will do.
+## a list of all the current bookmarklets and what they will do.
 
 * all bookmarks.js
 
