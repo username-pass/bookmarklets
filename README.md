@@ -101,6 +101,9 @@ will summon a little piano, it is cool and awesome for annoying friends with you
 this will give you a warning before you close a tab. so when you are mass closing your tabs for the day you don't lose any progress.
 * snow in chrome
 
+*tinyURL
+this will make the url smaller, and make it more easy to shair.
+
 make it snow with a cook effect on your tabs to impress your friends.
 * unblocker1
 
