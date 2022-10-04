@@ -91,5 +91,3 @@ lets you skip a ad when YouTube gives you 2 30 second ads.
 * yt comments
 
 if your school blocked seeing the comment section on a video, this will let you see it.
-
-## good job. you red all the bullet points and wasted your time.
