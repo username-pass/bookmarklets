@@ -12,6 +12,8 @@ paste the below code into the url of a bookmark, then click it!
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
 
+# Mega unblocker in progress!! Check back later to see if it is public!
+
 ## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
 ### unblockers that use exstentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
