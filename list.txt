@@ -1,6 +1,5 @@
  3d-page
  DOMII
- all-bookmarklets
  archive-search
  autoclicker
  better-ctrl+f
