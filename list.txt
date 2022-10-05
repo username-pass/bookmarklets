@@ -1,25 +1,28 @@
- darkmode
- 3d-page
- clear-cookies
- yt-comments
- edit-site
- inspect-element
- prevent-tab-closing
- better-ctrl+f
- autoclicker
- exec-code
- word-type-prank
- yt-add-skipper
- notepad
- piano
- classroom-disguise
- DOMII
- snow-in-chrome
- inject-script
- timer
- tinyURL
- cached-sites.js
- archive-search.js
- unblocker1.js
- unblocker1_tsunami.js
- localstorageview.js
+3d-page.js
+DOMII.js
+all-bookmarklets.js
+all-depbookmarklets.js
+archive-search.js
+autoclicker.js
+better-ctrl+f.js
+cached-sites.js
+classroom-disguise.js
+clear-cookies.js
+darkmode.js
+edit-site.js
+exec-code.js
+inject-script.js
+inspect-element.js
+localstorageview.js
+notepad.js
+password-gen.js
+piano.js
+prevent-tab-closing.js
+snow-in-chrome.js
+timer.js
+tinyURL.js
+unblocker1.js
+unblocker1_tsunami.js
+word-type-prank
+yt-add-skipper.js
+yt-comments.js
