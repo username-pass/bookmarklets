@@ -20,7 +20,7 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 ## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
 ### unblockers that use extentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
-# announcements
+# Announcements
 
 this is where announcements and upcoming features are displayed
 
@@ -37,6 +37,8 @@ This means new stuff will be coming soon. get ready!!
 * a new website for bookmarklets!!
 
 * a extension made by pazza08223
+
+### Mega unblocker now in beta, will open for testing soon!
 
 ### We ask you nicely to realize that not all things are finalized, and plans can change. so please give no hate if things get removed from this list. thank you.
 
