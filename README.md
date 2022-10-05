@@ -1,4 +1,7 @@
-# Bookmarklets-Collection
+# Welcome to my bookmarklets collection!
+
+### [Poll for new people](https://github.com/username-pass/bookmarklets/discussions/17)
+
 Just all of the bookmarklets that are thoght to be usefull all in one place
 
 If you have any new bookmarklets you wish to add, then please open a pull request with the bookmarklet so I can add it. (Not everything will be accepted. e.g. not finished or buggy/unusable bookmarks)
@@ -15,7 +18,7 @@ javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/
 # Mega unblocker in progress!! Check back later to see if it is public!
 
 ## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
-### unblockers that use exstentions or chrome apps will not be acsepted or added to the exstention (comming march)
+### unblockers that use extentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
 # announcements
 
