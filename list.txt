@@ -1,24 +1,27 @@
- darkmode
  3d-page
- clear-cookies
- yt-comments
- edit-site
- inspect-element
- prevent-tab-closing
- better-ctrl+f
+ DOMII
+ all-bookmarklets
+ archive-search
  autoclicker
+ better-ctrl+f
+ cached-sites
+ classroom-disguise
+ clear-cookies
+ darkmode
+ edit-site
  exec-code
+ inject-script
+ inspect-element
+ localstorageview
+ notepad
+ password-gen
+ piano
+ prevent-tab-closing
+ snow-in-chrome
+ timer
+ tinyURL
+ unblocker1
+ unblocker1_tsunami
  word-type-prank
  yt-add-skipper
- notepad
- piano
- classroom-disguise
- DOMII
- snow-in-chrome
- inject-script
- timer
- cached-sites.js
- archive-search.js
- unblocker1.js
- unblocker1_tsunami.js
- localstorageview.js
+ yt-comments
