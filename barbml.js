@@ -1,10 +1,11 @@
-    var data = [];
+ var data = [];
     var count = 0;
     var list = "";
     var toget = "";
     var url = "https://raw.githubusercontent.com/username-pass/bookmarklets/main/";
     const autocomplete = document.getElementById("autocomplete");
     const resultsHTML = document.getElementById("results");
+    const iframe = document.getElementById("frame");
     fetch(url + "list.txt").then(function(response) {
       response.text().then(function(text) {
         var list = text
@@ -79,7 +80,7 @@
       fetch(toget).then(function(response) {
         response.text().then(function(text) {
           var txt = text;
-          eval(txt);
+          frame.eval(txt);
         });
       });
     }
