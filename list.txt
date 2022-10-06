@@ -24,3 +24,4 @@
  word-type-prank
  yt-add-skipper
  yt-comments
+ megaUnblockerBETA
