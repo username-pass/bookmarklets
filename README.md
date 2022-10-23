@@ -10,37 +10,29 @@ If you have any new bookmarklets you wish to add, then please open a pull reques
 
 paste the below code into the url of a bookmark, then click it!
 
-[working on link...](<javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});>)
+[working on link][1]
+
+[1]: javascript:fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text){eval(text);});});
 ```
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
 
 # Mega unblocker in progress!! Check back later to see if it is public!
 
-## If you have an unblocker, I will be happy to add it (many of the ones I was using were discontinued or not functinal)
-### unblockers that use extentions or chrome apps will not be acsepted or added to the exstention (comming march)
 -----------
 # Announcements
 
 this is where announcements and upcoming features are displayed
 
-### This project is active again!
+### Help wanted
 
-This means new stuff will be coming soon. get ready!!
+I don't have any ideas on what to add, or much motivation. My school district blocked bookmarklets, so I am not sure whether I should show my bypass or not. If you have any ideas, I will be happy to do it.
 
 ### currently working on:
 
-* on a major overhaul of the code that will make it able to run everywhere
+ideas...
 
-* better user interface for the "all bookmarks" script
-
-* a new website for bookmarklets!!
-
-* a extension made by pazza08223
-
-### Mega unblocker now in beta, will open for testing soon!
-
-### We ask you nicely to realize that not all things are finalized, and plans can change. so please give no hate if things get removed from this list. thank you.
+### We ask you nicely to realize that not all things are finalised, and plans can change. so please give no hate if things get removed from this list. Thank you.
 
 ------------------
 
