@@ -47,7 +47,7 @@ This is a hub for all of the bookmarklets in the repository. it is the thing exe
 * 3d page
 
 
-this will make the page you are currently on have a cool 3d effect. pazza082234 is thinking about an extension and this will be a checkbox on the extension.
+this will make the page you are currently on have a cool 3d effect.
 * DOMII
 
 A cool game you can play in your browser on top of the website. press space and a spaceship will destroy whatever is Infront of it. press W to move forward, A, and D to turn, and S does nothing :(
