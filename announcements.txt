@@ -1,6 +1,4 @@
-Now Active again!
-
-Currently working 
-on a major overhaul
-that should work
-everywhere
+No longer active
+PR if you want
+another feature
+added
