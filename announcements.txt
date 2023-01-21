@@ -1,9 +1,8 @@
-No longer active
+Not really active
 PR if you want
 another feature
 added
 
-I might become
-active if I get
-inspiration or
-ideas
+I am now a dev at
+<a>https://inject0r.repl.co</a>
+More stuff there
