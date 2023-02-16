@@ -17,7 +17,6 @@ paste the below code into the url of a bookmark, then click it!
 javascript: fetch("https://raw.githubusercontent.com/username-pass/bookmarklets/main/all-depbookmarklets.js").then(function(response){response.text().then(function(text) {eval(text);});});
 ```
 
-# Mega unblocker in progress!! Check back later to see if it is public!
 
 -----------
 # Announcements
