@@ -35,6 +35,11 @@ ideas...
 
 ------------------
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=username-pass/bookmarklets&type=Date)](https://star-history.com/#username-pass/bookmarklets&Date)
+
+
 # list of all bookmarklets
 
 ## a list of all the current bookmarklets and what they will do.
