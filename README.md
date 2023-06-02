@@ -27,6 +27,8 @@ this is where announcements and upcoming features are displayed
 
 I don't have any ideas on what to add, or much motivation. My school district blocked bookmarklets, so I am not sure whether I should show my bypass or not. If you have any ideas, I will be happy to do it.
 
+I haven't properly updated this in ages, but this will stay up, so others could use it.
+
 ### currently working on:
 
 ideas...
